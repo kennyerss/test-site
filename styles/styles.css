@@ -1,0 +1,34 @@
+
+ html {
+     font-size: 10px;
+     font-family: "Roboto", sans-serif;  /* the Google font we have chosen*/
+     background-color: #00539F;
+ }
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0; /* parameters: sets top, right, bottom, left in order */
+    color: #00539F;
+    text-shadow: 5px 9px 3px grey; /* four values being the horizontal offset, vertical offset, blur radius, and base color */
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+    width: 500px;
+    margin: 0 auto; /* first value affects top and bottom side and the second value affects left and right side*/
+    background-color: #FF9500;
+    padding: 0 30px 40px 20px;
+    border: 10px solid black; /* sets values for width, style, and color */
+} 
+
+img {
+    display: block; /* since body is block element and an image is an inline elements, we must give image display: block */
+    margin: 0 auto;
+}
